@@ -18,6 +18,6 @@ helm install rancher rancher-stable/rancher \
   --set hostname=rancher.${vminfo:rancher01:public_ip}.sslip.io \
   --set replicas=1 \
   --set bootstrapPassword=RancherOnRKE2 \
-  --version 2.7.9 \
+  --version 2.8.4 \
   --create-namespace
 ```
